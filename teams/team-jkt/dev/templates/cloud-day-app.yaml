@@ -17,7 +17,7 @@ spec:
         app: cloud-day-app
     spec:
       containers:
-      - image: argoproj/rollouts-demo:green
+      - image: argoproj/rollouts-demo:blue
         name: cloud-day-app
         ports:
           - containerPort: 8080
